@@ -1,0 +1,47 @@
+.nav-tabs .nav-item .nav-link {
+    background-color: #f4f9fd;
+    color: #0f0e0e;
+    border-radius: 20px;
+  }
+  
+  .nav-tabs .nav-item .nav-link.active {
+    color: #e5e8eb;
+    background-color: #250257;
+   
+  }
+
+#myTab{
+    display: flex;
+    justify-content: center;
+}
+
+  .tab-content {
+    border: 1px solid #dee2e6;
+    border-top: transparent;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .tab-content .tab-pane {
+    background-color: #FFF;
+    color: #0080FF;
+    min-height: 100px;
+    height: auto;
+  }
+
+  .applyBtn{
+    border: none;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: #250257;
+  }
+  .dangerBtn{
+    padding: 0px 15px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .exportBtn{
+    border: none;
+    padding: 0px 10px;border-radius: 10px;
+  }

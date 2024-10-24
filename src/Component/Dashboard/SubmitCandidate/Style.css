@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mandate{
+    color: red;
+    
+}
+.fileUpload{
+    height: 230px;
+    width: 299px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.fileUpload img{
+    height: 50px;
+    margin: 15px;
+}
+
+.personalText{
+   
+    font-weight:bold;
+    margin-top: 14px;
+}
+
+.candidateInfoForm{
+    border-radius: 7px;
+    width: 800px;
+    margin-top: -12px;
+}
+
+.candidateInfoInactiveTab{
+
+   
+    width: 800px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.inactiveClass{
+    background-color: rgb(58, 53, 53);
+    padding: 0 15px;
+    color: white;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.companyNameDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyInfo span{
+    color:#0078ff;
+    cursor: pointer;
+}
+
+.certificateDiv, .colorText{
+    color:#0078ff;
+}
+
+
+.submitCandidate{
+    width: 200px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.uploadFileText{
+    color: rgb(189, 184, 184);
+    font-size: 12px;
+}
+
+.boldHeading{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nameDive{
+    margin-top: -10px;
+}
+
+.candidateIndustry{
+    height: 38px;
+   
+}
+
+.list-group-item{
+    color: gray;
+}
+
+
+/***********************Slider code ******************************/
+
+.price-slider {
+    width: 97%;
+    margin: 20px;
+    position: relative;
+  }
+  
+  .slider-values {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .slider-values input[type='text']
+{
+    width: 80px;
+    border-color: rgb(168, 166, 166);
+}  
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 30px;
+   
+  }
+  
+  .slider input[type='range'] {
+    appearance: none;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    pointer-events: none;
+    z-index: 3; /* Ensures both thumbs are clickable */
+  }
+  
+  .slider input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+    pointer-events: all; /* Allows user to grab the thumb */
+    position: relative;
+    z-index: 3; /* Brings it above the track */
+  }
+  
+  .slider input[type='range']::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+  }
+  
+  .slider-track {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 3px;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slider-range {
+    position: absolute;
+    height: 6px;
+    background-color: #007bff;
+    border-radius: 3px;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  

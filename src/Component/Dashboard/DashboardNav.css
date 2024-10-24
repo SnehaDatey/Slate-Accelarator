@@ -1,0 +1,38 @@
+.dash-navbar {
+    background-color:  rgb(224, 223, 223);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 16px 20px 0px;
+    margin-top: -33px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-left: 20px;
+   background-color: #cbc1f5;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 7px;
+  }
+  
+  .nav-links a {
+    color: #504e4e;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s;
+  }
+
+  .dashImg{
+    height:15px;
+  }
+
+  .dashboard-container{
+    margin-top: -45px;
+  }

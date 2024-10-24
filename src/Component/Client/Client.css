@@ -1,0 +1,102 @@
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: -36px;
+    padding: 0 80px;
+}
+
+.textblock{
+    height: auto;
+    width: 728px !important;
+
+}
+.textblock img{
+    height: 300px;
+    width: 394px;
+}
+.login-container{
+    
+    height: 437px;
+    width: 373px;
+    right: 5%;
+    top: 15%;
+
+}
+
+.login-inner-container{
+    padding: 10px 28px;
+}
+
+.credentialText{
+    color: rgb(145, 143, 143);
+    font-size: 14px;
+}
+
+.signupText, .backLogin{
+    cursor: pointer;
+}
+ 
+
+.forgotPass{
+    text-align: right;
+    
+}
+
+.forgotPass a{
+    text-decoration: none;
+    color: #0078ff;
+}
+
+.loginBtn button{
+    margin-top: 15px;
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+.recruiterText{
+    color: #0078ff;
+    
+}
+
+
+.errClass{
+    height: 15px;
+    font-size: 12px;
+    margin-top: -18px;
+}
+/******************************************************************/
+
+
+.signup-main-container{
+    width: 90%;
+    
+}
+.signUpContainer{
+    width: 60%;
+}
+
+.textblockForSignup{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.signupText{
+    color: rgb(102, 100, 100);
+    font-size: 18px;
+}
+
+.primaryInfo{
+   
+    width: 33%;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: -32px;
+    background-color: white;
+    font-weight: bold;
+}
